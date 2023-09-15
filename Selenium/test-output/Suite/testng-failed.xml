@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test parallel="classes" name="Submit Order Test(failed)">
+    <classes>
+      <class name="TestCasePackage.ErrorRevalidationTest">
+        <methods>
+          <include name="initializeDriver"/>
+          <include name="loginErrorRevalidation"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCasePackage.ErrorRevalidationTest -->
+      <class name="TestCasePackage.Test1">
+        <methods>
+          <include name="loginErrorRevalidation1"/>
+          <include name="initializeDriver"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- TestCasePackage.Test1 -->
+    </classes>
+  </test> <!-- Submit Order Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
